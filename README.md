@@ -4,5 +4,5 @@ I practiced scripting specifications for the deployment in place of manually bui
 GOAL: Deploy two virtual machines with their own network security group in a resource group with dedicted containers.
 
 Considerations:
-COST - free resources created in Microsoft Azure, resources deleted upon completion of deployment
-TOOLS - Powershell, Cloudshell, assistance from Claude for fixes to the scripting
+~COST - free resources created in Microsoft Azure, resources deleted upon completion of deployment
+~TOOLS - Powershell, Cloudshell, assistance from Claude for fixes to the scripting
