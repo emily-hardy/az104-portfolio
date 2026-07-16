@@ -1,0 +1,19 @@
+<# use the following commands in powershell on desktop to create the resource group in Azure #>
+<# powershell must be run as administrator #>
+<# enable chocolatey if not already installed to deploy initial resource group in Azure account without needing to log in to Azure #>
+choco --version
+choco install azure-cli 
+
+<# after chocolatey has been installed, connect to azure commmand line interface to connect to Azure and run administrative commands on Azure resources #>
+choco install azure-cli --yes
+
+<# verfiy #>
+az version
+
+<# create a new resource group #>
+$rgName = "az104-$($env:USERNAME.ToLower())-$(Get-Random)"
+$region = "eastus"
+Write-Host "Creating: $rgName in $region" -ForegroundColor Cyan
+az group create --name $rgName --location $region
+
+
