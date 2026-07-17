@@ -14,7 +14,21 @@ Initially, I was going to use powershell to run azure and bicep to back up the i
 <img width="1350" height="767" alt="1 powershell_installs" src="https://github.com/user-attachments/assets/f9488126-a1be-46a8-850d-824206228e8f" />
 
 **2.** 
-Creating the RG.
-<iframe src="https://drive.google.com/file/d/1YFLB10kqHf37LenT7P6ip7hHc3E8yYux/preview" width="640" height="480"></iframe>
+Creating the RG and storage account.
+https://private-user-images.githubusercontent.com/150190489/623343055-73ee3459-1192-47d1-992f-5e158e0a6eb0.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODQzMTAxNzIsIm5iZiI6MTc4NDMwOTg3MiwicGF0aCI6Ii8xNTAxOTA0ODkvNjIzMzQzMDU1LTczZWUzNDU5LTExOTItNDdkMS05OTJmLTVlMTU4ZTBhNmViMC5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNzE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDcxN1QxNzM3NTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMDRiOTFkM2Y4YTBhNmU3ODFmMmY3N2U5NjlhYWQ0MTYzZTU1N2IwZGY0MDJiYjg3NjZmODU4MTVjNGY5NTI5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9dmlkZW8lMkZtcDQifQ.RgT8o9AF9oDHO-bFxVguAm9jK_ZkZto2MIPNuGQBm4g
+
+
+**3**
+From here, I logged into my Azure account to confirm creation of RG.
+<img width="845" height="305" alt="6 proof-of-RG-in-azure" src="https://github.com/user-attachments/assets/bb0b84b8-3307-49d3-80b8-fc7dc5ee7cb4" />
+<img width="1683" height="925" alt="7 proof-of-storage-account-in-azure" src="https://github.com/user-attachments/assets/f6602d03-3f29-45fc-b827-002b52168f6e" />
+
+*4*
+In Azure, using Cloudshell to deploy the VMs with a specified NSG.
+<img width="953" height="395" alt="12 deployment-in-azure-cloud-shell" src="https://github.com/user-attachments/assets/37af4a92-7eef-4678-a973-1bb42d0a7b0b" />
+
+
+
+
 
 
